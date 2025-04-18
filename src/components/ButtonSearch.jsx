@@ -65,7 +65,7 @@ const ButtonSearch = () => {
             onChange={(e) => setInput(e.target.value)}
           />
           <button
-            className="p-2 rounded-r-md bg-green-500 text-gray-300"
+            className="p-2 rounded-r-md bg-green-500 hover:bg-green-700 text-gray-300"
             onClick={handleSearch}
           >
             Search
